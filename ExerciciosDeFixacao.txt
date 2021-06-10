@@ -1,0 +1,21 @@
+Códigos Visualg
+
+algoritmo "exercício1"
+// Função :Estruturado
+// Autor : Adriano Cavalcante - tutoslivre@hotmail.com
+// Data : 26/04/2021
+// Apresente o seguinte algoritmo
+// Ler 2 valores, no caso variaveis A e B.
+//Efetuar a soma das variaveis A e B implicando seu resultado na variavel x.
+//Apresentar o valor da variavel X após a soma dos dois valores indicados.*/
+var
+A,B,X:REAL
+inicio
+escreva ("Digite o valor de A.:")
+leia(A)
+escreva ("Digite o valor de B.:")
+leia(B)
+X<- A+B
+escreva ("A soma de A + B é.:",X)
+fimalgoritmo
+*********************************************************************************************
