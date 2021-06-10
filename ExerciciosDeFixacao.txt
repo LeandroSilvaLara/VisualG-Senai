@@ -104,3 +104,25 @@ st <- nt*vh
 escreva("O salário do funcionário número ",nf," é R$",st," reais")
 fimalgoritmo
 *********************************************************************************************
+algoritmo "exercicio5"
+// Função :Estruturado
+// Autor : Adriano Cavalcante - tutoslivre@hotmail.
+// Data : 07/05/2021
+// Escreva um algoritmo qua leia o numero de um funcionário, seu seu numero de horas trabalhadas,
+//o valor que recebe por hora e calcule o salário deste funcionário.
+//A seguir, mostre o número e o salário do funcionário.
+var
+nf, nt : inteiro
+vh, st : real
+inicio
+escreva("Digite o numero do funcionário................:")
+leia(nf)
+escreva("Digite o numero de horas trabalhadas...........:")
+leia(nt)
+escreva("Digite o valor que recebe por hora trabalhada..:")
+leia(vh)
+//limpatela
+st <- nt*vh
+escreva("O salário do funcionário número ",nf," é R$",st," reais")
+fimalgoritmo
+*********************************************************************************************
