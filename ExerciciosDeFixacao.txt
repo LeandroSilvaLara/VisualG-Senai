@@ -2,7 +2,7 @@ Códigos Visualg
 
 algoritmo "exercício1"
 // Função :Estruturado
-// Autor : Adriano Cavalcante - tutoslivre@hotmail.com
+// Autor : Leandro Lara
 // Data : 26/04/2021
 // Apresente o seguinte algoritmo
 // Ler 2 valores, no caso variaveis A e B.
@@ -21,7 +21,7 @@ fimalgoritmo
 *********************************************************************************************
 algoritmo "exercicio2"
 // Função :Estruturado
-// Autor : Adriano Cavalcante - tutoslivre@hotmail.com
+// Autor : Leandro Lara
 // Data : 27/04/2021
 // 1)a formula pa calcular a área de um a circunferencia é A=piR^.
 //Sendo que o valor de PI = 3,14159 basta estabelecer.
@@ -38,3 +38,69 @@ leia(p)
 a <- (r*r)*p
 escreva ("A área da circunferência é.:",a)
 fimalgoritmo
+lgoritmo "exercicio3"
+// Função :Estruturado
+// Autor : Leandro Da Silva Lara
+// Data : 28/04/2021
+// Leia duas variaves A e B. A seguir, calcule a soma, a diferença, o produto e a divisão
+//entre elas. A seguir mostre o resultado de cada conta com as mensagens correspondentes.
+var
+A,B,soma, diferenca,produto,divi: real
+inicio
+escreva("Digite um valor para A.:")
+leia (A)
+escreva("Digite um valor para B.:")
+leia (B)
+soma      <- A+B
+diferenca <- A-B
+produto   <- A*B
+divi      <- A/B
+escreval("Soma      .:",soma)
+escreval("Diferênça .:",diferenca)
+escreval("Produto   .:",produto)
+escreval("Divisão   .:",divi)
+fimalgoritmo
+*********************************************************************************************
+algoritmo "exercicio4"
+// Função :Estruturado
+// Autor : Leandro Lara
+// Data : 27/04/2021
+// Leia duas notas de um aluno. A seguir, calcule a média do aluno, sabendo que a primeira nota
+// tem peso 3,5 e a segunda nota tem peso 7,5.
+var
+media,n1,n2 : real
+inicio
+escreva("Digite a primeira nota do aluno.:")
+leia(n1)
+escreva("Digite a segunda nota do aluno .:")
+leia(n2)
+limpatela
+n1 <- n1 *3.5
+n2 <- n2 *7.5
+media <- (n1+n2)/10
+escreval("A média ponderada foi.:",media)
+fimalgoritmo
+*********************************************************************************************
+
+algoritmo "exercicio5"
+// Função :Estruturado
+// Autor : Leandro Lara
+// Data : 03/05/2021
+// Escreva um algoritmo qua leia o numero de um funcionário, seu seu numero de horas trabalhadas,
+//o valor que recebe por hora e calcule o salário deste funcionário.
+//A seguir, mostre o número e o salário do funcionário.
+var
+nf, nt : inteiro
+vh, st : real
+inicio
+escreva("Digite o numero do funcionário................:")
+leia(nf)
+escreva("Digite o numero de horas trabalhadas...........:")
+leia(nt)
+escreva("Digite o valor que recebe por hora trabalhada..:")
+leia(vh)
+//limpatela
+st <- nt*vh
+escreva("O salário do funcionário número ",nf," é R$",st," reais")
+fimalgoritmo
+*********************************************************************************************
